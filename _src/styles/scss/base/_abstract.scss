@@ -1,5 +1,5 @@
 @use 'sass:math';
-@import '../vendors/include-media';
+@import '~include-media/dist/include-media';
 
 %ul-reset {
   margin: 0;

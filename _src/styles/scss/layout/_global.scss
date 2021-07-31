@@ -40,19 +40,10 @@ html {
     padding-bottom: 3rem;
     grid-column: 1 / 13;
     grid-row: 2;
-
-    @include media('>=large') {
-      grid-column: 1 / 10;
-      grid-row: 1;
-    }
   }
 
   .web-content {
     padding-bottom: 3rem;
-
-    @include media('>=large') {
-      grid-column: 1 / 7;
-    }
   }
 
   .other-content {
@@ -82,52 +73,25 @@ html {
     margin: 0 -1rem;
     display: block;
 
-    @include media('>=large') {
-      margin: 0;
-      padding: 0 0 0 $global-gutters;
-      grid-column: 10 / 13;
-      border-left: $border-separators solid var(--color-main-grayfade);
-    }
-
     .categories {
-      font-family: monospace;
-
-      @include media('<large') {
-        h2 {
-          display: none;
-        }
-        ul {
-          display: flex;
-          justify-content: space-around;
-        }
-        li {
-          display: inline-block;
-        }
+      h2 {
+        display: none;
       }
-    }
-
-    .svg-me {
-      display: none;
-      content-visibility: auto;
-      @include media('>=large') {
-        display: block;
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 32rem;
+        margin: auto;
+        font-family: $title-font-family;
+      }
+      li {
+        display: inline-block;
       }
     }
   }
 
-  .over-large {
+  .content {
     content-visibility: auto;
-    display: none;
-    @include media('>=large') {
-      display: block;
-    }
-  }
-
-  .under-large {
-    content-visibility: auto;
-    @include media('>large') {
-      display: none;
-    }
   }
 }
 

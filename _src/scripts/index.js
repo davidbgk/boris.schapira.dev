@@ -2,11 +2,9 @@ import easyToggle from 'easy-toggle-state';
 import 'touchtap-event';
 import { ready } from './subscripts/utils';
 
-import './subscripts/savedata';
 import './subscripts/localstorageSaveLang';
 import './subscripts/localstorageSaveDarkMode';
 import './subscripts/footnotesAlternatives';
-import { abbrTouch } from './vendors/abbr-touch';
 
 ready(function () {
   easyToggle();
@@ -39,14 +37,6 @@ ready(function () {
       tooltip.classList.remove('visible');
     }, timeoutLength);
   }
-
-  abbrTouch(document.querySelector('article'), function (target, title) {
-    var tooltip = getTooltipElement();
-    // Ensure the tooltip is ready so that the initial transition works
-    setTimeout(function () {
-      updateTooltip(tooltip, target.innerHTML, title);
-    }, 0);
-  });
 });
 
 import './subscripts/webshare';

@@ -10,6 +10,7 @@
 
   h1 {
     margin: 0;
+    display: inline-block;
   }
 
   small {
@@ -22,7 +23,6 @@
 }
 
 .meta {
-  font-size: unquote('max(16px, 0.85rem)');
   color: var(--color-main-gray);
   margin-top: math.div($global-gutters, 2);
 
@@ -63,11 +63,6 @@
       color: var(--main-color);
       font-family: $default-font-family;
 
-      .save-data &,
-      &.save-data {
-        font-family: $default-font-family-save-data;
-      }
-
       &:hover,
       &:focus {
         text-decoration: underline;
@@ -79,36 +74,10 @@
 
 .nav-arrow {
   margin: 1vw;
-  position: fixed;
-  height: 70vh;
-  top: 15vh;
   font-size: 1.5rem;
-
-  @include media('>=small') {
-    font-size: 2rem;
-  }
-
-  @include media('>=large') {
-    margin: 5vw;
-  }
+  display: inline-block;
 
   a {
-    line-height: 70vh;
-    @include media('<=small') {
-      &:before {
-        content: ' ';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        cursor: pointer;
-        background-color: transparent;
-      }
-    }
-
-    background-color: var(--color-main-background);
-    border-radius: 50%;
     padding: 0.25rem 0.5rem;
   }
 
@@ -128,21 +97,13 @@
 }
 
 .post {
-  &:not(#content) {
-    padding: 2rem 0;
-    .meta {
-      margin-top: 0;
-    }
-  }
-
-  border-bottom: $border-separators solid var(--color-main-text);
-
-  &:last-of-type:not(:only-of-type) {
-    border-bottom: none;
+  &:not(#content) .meta {
+    display: inline-block;
   }
 
   .post-title {
-    margin: 0 0 0.5rem 0;
+    margin: 0 1rem 0.5rem 0;
+    display: inline-block;
   }
   .post-content {
     h2:first-child {

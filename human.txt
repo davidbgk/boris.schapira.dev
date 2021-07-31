@@ -9,7 +9,7 @@ Twitter: @borisschapira
 Location: Made with <3 between Bordeaux & Perigueux, France
 
 /* THANKS */
-Many thanks to all the people that have helped me understand 
+Many thanks to all the people that have helped me understand
 how to do this. Nicolas Hoizey, Sylvain Durand, Adams Clarkson,
 Nicolas Hoffman… thank you very much!
 
@@ -17,7 +17,6 @@ Nicolas Hoffman… thank you very much!
 Last update:  {{ site.time | date: "%Y-%m-%d" }}
 
 Standards: HTML5, CSS3, JavaScript
-Components: Abbr Touch, jQuery, touchtap
 Building tools: Jekyll, Bundler, Ruby, SASS, HTML-proofer
 Software used during development: Visual Studio Code, Cyberduck,
 and Spotify!

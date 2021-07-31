@@ -39,20 +39,19 @@ $default-line-height: 1.7;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
-$default-font-family: 'Lora', serif;
-$default-font-family-save-data: Georgia, Cambria, 'Times New Roman', Times,
+$default-font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia,
   serif;
 $default-font-weight: $font-weight-normal;
 $default-font-style: normal;
 
-$title-font-family: 'Lemonada', cursive;
-$title-font-family-save-data: sans-serif;
+$title-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 $title-font-weight: $font-weight-bold;
 $title-font-style: normal;
 $title-line-height: 1.7;
 
 $button-font-family: $default-font-family;
-$button-font-family-save-data: $default-font-family-save-data;
 $button-font-weight: $font-weight-normal;
 $button-font-style: normal;
 $button-line-height: 1.7;

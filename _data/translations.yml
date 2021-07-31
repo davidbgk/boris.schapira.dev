@@ -15,6 +15,7 @@ en:
   "cet article a d'abord été publié sur" : "this post first appeared in"
   'Cet article fait partie de la série "[%s1](/tag/%s2)".': 'This post is part of the "[%s1](/tag/%s2)" series.'
   "citoyen": "citizen"
+  "Citoyen": "Citizen"
   "compilé par Jekyll, propulsé par Netlify et Cloudinary": "compiled by Jekyll, propulsed by Netlify and Cloudinary"
   "Courriel": "E-mail"
   "Dans la même catégorie :": "In the same category:"
@@ -48,6 +49,7 @@ en:
   "Page précédente": "Previous page"
   "Page suivante": "Next page"
   "papa": "dad"
+  "Papa": "Dad"
   "par": "by"
   "partager": "sharing"
   "Partager": "Sharing"
@@ -75,3 +77,4 @@ en:
   "Vous êtes abonné·e au flux des articles": "You subscribed to my posts"
   "vous pouvez proposer une": "please submit a"
   "web": "web"
+  "Web": "Web"

@@ -10,11 +10,6 @@ h4,
 h5,
 h6 {
   font-family: $default-font-family;
-
-  .save-data &,
-  &.save-data {
-    font-family: $default-font-family-save-data;
-  }
 }
 
 html,
@@ -41,10 +36,6 @@ h2,
   font-style: $title-font-style;
   font-weight: $title-font-weight;
   line-height: $title-line-height;
-
-  .save-data & {
-    font-family: $title-font-family-save-data;
-  }
 }
 
 h3,

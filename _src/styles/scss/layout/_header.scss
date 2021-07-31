@@ -101,18 +101,4 @@
   .menu-trigger {
     z-index: $zindex-nav-trigger;
   }
-
-  @include media('>=large') {
-    .menu-trigger {
-      display: none;
-    }
-    ul {
-      display: flex;
-      width: 65vw;
-      justify-content: space-evenly;
-    }
-    nav {
-      grid-column: 4 / 13;
-    }
-  }
 }
